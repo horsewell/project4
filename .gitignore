@@ -161,3 +161,4 @@ cython_debug/
 
 .DS_Store
 open_university.sqlite
+studentVle.csv
