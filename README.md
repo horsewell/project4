@@ -7,19 +7,29 @@ By looking into Open University Data Student Data, we aim to create a model that
 ## Aim
 Get a general understanding of the data. (Total students, gender ratio, geography of students).
 Then use machine learning the following questions:
- - Are there factors that cause some students to be more prone to dropping out than others.
- - Does IMBD_BAND affect the success of the student.
+1. Are there factors that cause some students to be more prone to dropping out than others?
+2. Does IMBD_BAND affect the success of the student?
      - Logistic Regression
      - Decision Tree model
      - Deep Learning Model
- - How does Student interaction affect the final score
+3. How does Student interaction affect the final score?
      - Deep Learning Model
 
 ## Data Cleanup and Analysis
 create_db.ipynb was used to turn the 6 csv's that contained data into an SQL Database. From there, the database can be accessed to make pandas dataframes and then analysis can begin.
 This includes:
 - Merging Dataframes together
-- 
+
+1. Basic Data Overview:
+   - 32,593 instances of students joining a course. 28, 785 being completely unique students (Unique Student ID's)
+   - Students come from 13 different Regions with Scotland being the region with the most students and Ireland being the least
+     
+
+1. Are there factors that cause some students to be more prone to dropping out than others.
+   
+2. Does IMBD_BAND affect the success of the student.
+
+3. How does Student interaction affect the final score
 
 ## Github Description
 
