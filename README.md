@@ -23,6 +23,11 @@ This includes:
 1. Basic Data Overview:
    - 32,593 instances of students joining a course. 28, 785 being completely unique students (Unique Student ID's)
    - Students come from 13 different Regions with Scotland being the region with the most students and Ireland being the least
+  (Insert Graph)
+   - There are slightly more Male students over Female students. With 17,875 males students vs 14,718 students.
+   (Insert Graph)
+   - Passing is the highest "Final Result", however if you combine Passing with Distinction and Withrdrawal with Failing. Then Failing is higher.
+   - (Insert graph)
      
 
 1. Are there factors that cause some students to be more prone to dropping out than others.
