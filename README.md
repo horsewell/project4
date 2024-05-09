@@ -20,6 +20,7 @@ create_db.ipynb was used to turn the 6 csv's that contained data into an SQL Dat
 This includes:
 - Merging Dataframes together
 
+
 1. Basic Data Overview:
    - 32,593 instances of students joining a course. 28, 785 being completely unique students (Unique Student ID's)
    - Students come from 13 different Regions with Scotland being the region with the most students and Ireland being the least
