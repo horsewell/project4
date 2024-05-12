@@ -1,4 +1,15 @@
 open_university.sqlite
+
+api_keys.py
+pandasiai.log
+untitled_project/
+cache/
+demo_df_n.pkl
+import_df.pkl
+no_changes.pkl
+model.pkl
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
