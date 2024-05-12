@@ -71,10 +71,10 @@ prediction = load_model.predict(df_combined)
 prediction_proba = load_model.predict_proba(df_combined)
 
 st.subheader('Prediction')
-student_result = np.array(['Pass', 'Fail'])
+student_result = np.array(['Fail', 'Pass'])
 st.write(student_result[prediction])
 
-st.subheader('Prediciton Probability')
+st.subheader('Predicton Probability')
 st.write(prediction_proba)
 
 
