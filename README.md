@@ -122,9 +122,9 @@ Web Deployment
 - Pickle files of models and dataframes too large to store on github
 
 ## References & Datasets
-https://www.kaggle.com/datasets/mexwell/open-university-learning-analytics
-https://docs.streamlit.io/
-https://docs.pandas-ai.com/en/latest/
-https://scikit-learn.org/stable/
+- https://www.kaggle.com/datasets/mexwell/open-university-learning-analytics
+- https://docs.streamlit.io/
+- https://docs.pandas-ai.com/en/latest/
+- https://scikit-learn.org/stable/
 
 
