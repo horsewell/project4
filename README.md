@@ -47,9 +47,9 @@ This includes:
     - IMD Band definition: Indices of multiple deprivation (IMD) are widely-used datasets within the UK to classify the relative deprivation of small areas.
     - Target to measure success is whether the student passed or failed
     - Features in each stage of the models:
-    ![Feature Stages](project4/images/model_stage_features.png)
+    ![Feature Stages](images/model_stage_features.png)
     - Model Accuracy over the stages 
-    ![Model Graph](project4/images/model_accuracy.png)
+    ![Model Graph](images/model_accuracy.png)
     - Conclusion 
         - Multiple features impacted student success
         - Only focusing on IMD Band to predict if a student would pass or fail a course resulted in low accuracy models
@@ -58,7 +58,7 @@ This includes:
          - Assessment scores
          - Date of registration
         - Most Successful Model 
-        ![Random Forest](project4/images/random_forest_model.png)
+        ![Random Forest](images/random_forest_model.png)
 
 3. How does Student interaction affect the final score?
 
