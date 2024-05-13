@@ -99,12 +99,12 @@ From the models we will create an applicaiton for Open University to use to pred
 
 ## Instructions for Web App
 
-    - The web app has interactive tabs called Explore Data and Prediction Calculator. 
-    - The first welcome page details an overview of our project and explains the models that were used to answer our questions for the dataset we analysed
-    - The Explore Data page allows the user to query the dataset used for analysis through a chatbot. The user can ask the chatbot to plot graphs and answer basic questions questions about the university dataset. 
-    [!chatbot](images/chatbot.png)
-    - The Prediction Calculator page utilises a Random Forest model, the user can change feature inputs about a student and the model will predict whether the student will pass or fail the course.
-    [!calculator](images/calculator.png)
+- The web app has interactive tabs called Explore Data and Prediction Calculator. 
+- The first welcome page details an overview of our project and explains the models that were used to answer our questions for the dataset we analysed
+- The Explore Data page allows the user to query the dataset used for analysis through a chatbot. The user can ask the chatbot to plot graphs and answer basic questions questions about the university dataset. 
+[!chatbot](images/chatbot.png)
+- The Prediction Calculator page utilises a Random Forest model, the user can change feature inputs about a student and the model will predict whether the student will pass or fail the course.
+[!calculator](images/calculator.png)
 
 ## Limitations and Challenges of Dataset & Dataset & Analysis
 Data
