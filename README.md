@@ -9,13 +9,21 @@ By looking into Open University Data Student Data, we aim to create a model that
 Get a general understanding of the data. (Total students, gender ratio, geography of students).
 Then use machine learning the following questions:
 1. Are there factors that cause some students to be more prone to dropping out than others?
+    - Logistic Regression
 2. Does IMBD_BAND affect the success of the student?
      - Logistic Regression
      - Decision Tree model
      - Deep Learning Model
      - Neural Network
 3. How does Student interaction affect the final score?
-     - Deep Learning Model
+     - Decision Tree
+     - Random Forest
+     - KNN
+     - Naive Bayes
+     - Logisitc Regression
+     - Linear SVC
+     - Support Vector Machines
+     - Stochastic Gradient Decent
 
 From the models we will create an applicaiton for universitys to use to predict the final result of a student completing a course (Pass or Fail)
 
@@ -35,11 +43,11 @@ From the models we will create an applicaiton for universitys to use to predict 
 1. Basic Data Overview:
    - 32,593 instances of students joining a course. 28, 785 being completely unique students (Unique Student ID's)
    - Students come from 13 different Regions with Scotland being the region with the most students and Ireland being the least
-  (Insert Graph)
+        ![map](images/region_map.png)
    - There are slightly more Male students over Female students. With 17,875 males students vs 14,718 students.
-   (Insert Graph)
+        ![pie](images/pie_graph.png)
    - Passing is the highest "Final Result", however if you combine Passing with Distinction and Withrdrawal with Failing. Then Failing is higher.
-   - (Insert graph)
+        ![student_result](images/student_result_graph.png)
 
 ## Data Questions
 
@@ -91,9 +99,11 @@ From the models we will create an applicaiton for universitys to use to predict 
 
 ## Instructions for Web App
     - The web app has interactive tabs called Explore Data and Prediction Calculator. 
-    - The first welcome page details an overview of our project and explains the models that were used to answer our questions for the dataset we analysed.
+    - The first welcome page details an overview of our project and explains the models that were used to answer our questions for the dataset we analysed
     - The Explore Data page allows the user to query the dataset used for analysis through a chatbot. The user can ask the chatbot to plot graphs and answer basic questions questions about the university dataset. 
+    [!chatbot](images/chatbot.png)
     - The Prediction Calculator page utilises a Random Forest model, the user can change feature inputs about a student and the model will predict whether the student will pass or fail the course.
+    [!calculator](images/calculator.png)
 
 ## Limitations and Challenges of Dataset & Dataset & Analysis
 Data

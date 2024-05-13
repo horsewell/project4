@@ -19,7 +19,7 @@ def user_input_features():
     score = st.sidebar.slider('Score', min_value=0, max_value=1000, value=0)
     clicks = st.sidebar.slider('Clicks', min_value=1, max_value=28507, value=1)
     registration = st.sidebar.slider('Registration Date', min_value=-320, max_value=6, value=0)
-    code_module = st.sidebar.selectbox('Module', ['AAA', 'BBB', 'CCC', 'DDD', 'EEE', 'FFF', 'GGG', 'HHH', 'III'])
+    code_module = st.sidebar.selectbox('Module', ['AAA', 'BBB', 'CCC', 'DDD', 'EEE', 'FFF', 'GGG'])
     region = st.sidebar.selectbox('Region', ['Scotland', 'East Anglian Region', 'London Region', 'South Region', 'North Western Region', 'West Midlands Region', 'South West Region', 'East Midlands Region', 'South East Region', 'Wales', 'Yorkshire Region', 'North Region', 'Ireland'])
     highest_education = st.sidebar.selectbox('Highest Education', ['No Formal quals', 'Lower Than A Level', 'A Level or Equivalent', 'HE Qualification', 'Post Graduate Qualification'])
     imd_band = st.sidebar.selectbox('IMD Band', ['0-10%', '10-20%', '20-30%', '30-40%', '40-50%', '50-60%', '60-70%', '70-80%', '80-90%', '90-100%'])
