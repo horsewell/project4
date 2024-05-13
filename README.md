@@ -25,7 +25,7 @@ Then use machine learning the following questions:
      - Support Vector Machines
      - Stochastic Gradient Decent
 
-From the models we will create an applicaiton for universitys to use to predict the final result of a student completing a course (Pass or Fail)
+From the models we will create an applicaiton for Open University to use to predict the final result of a student completing a course (Pass or Fail)
 
 ## Technologies Used
     - SQLite - Portable database allowing everyone to use the same database small and fast
@@ -98,6 +98,7 @@ From the models we will create an applicaiton for universitys to use to predict 
         - Logistic regression is a useful model to run early in the workflow.
 
 ## Instructions for Web App
+
     - The web app has interactive tabs called Explore Data and Prediction Calculator. 
     - The first welcome page details an overview of our project and explains the models that were used to answer our questions for the dataset we analysed
     - The Explore Data page allows the user to query the dataset used for analysis through a chatbot. The user can ask the chatbot to plot graphs and answer basic questions questions about the university dataset. 
