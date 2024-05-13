@@ -42,12 +42,14 @@ From the models we will create an applicaiton for Open University to use to pred
 
 1. Basic Data Overview:
    - 32,593 instances of students joining a course. 28, 785 being completely unique students (Unique Student ID's)
+
    - Students come from 13 different Regions with Scotland being the region with the most students and Ireland being the least
         ![map](images/region_map.png)
    - There are slightly more Male students over Female students. With 17,875 males students vs 14,718 students.
         ![pie](images/pie_graph.png)
    - Passing is the highest "Final Result", however if you combine Passing with Distinction and Withrdrawal with Failing. Then Failing is higher.
         ![student_result](images/student_result_graph.png)
+
 
 ## Data Questions
 

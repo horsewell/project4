@@ -1,3 +1,4 @@
+
 open_university.sqlite
 
 api_keys.py
@@ -170,3 +171,5 @@ cython_debug/
 #.idea/
 
 .DS_Store
+open_university.sqlite
+studentVle.csv
