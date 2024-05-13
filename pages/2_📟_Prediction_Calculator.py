@@ -4,7 +4,6 @@ import pandas as pd
 import pickle
 from sklearn.ensemble import RandomForestClassifier
 
-
 st.title('University Result Prediction')
 
 st.divider()
@@ -50,7 +49,7 @@ df = pd.read_pickle('import_df.pkl')
 df_drop = df.drop(columns=['Final Result'])
 df_combined = pd.concat([input_df, df_drop], axis=0)
 
-#Encode no binary columns
+#Encode non binary columns
 encode = ['Module', 'Region', 'Highest Education', 'IMD Band', 'Age Band', 'Gender', 'Disability']
 for col in encode:
     dummy = pd.get_dummies(df_combined[col], prefix=col)
@@ -75,6 +74,7 @@ student_result = np.array(['Fail', 'Pass'])
 st.write(student_result[prediction])
 
 st.subheader('Predicton Probability')
+st.write('0 = Fail | 1 = Pass')
 st.write(prediction_proba)
 
 
