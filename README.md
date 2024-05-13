@@ -30,7 +30,8 @@ This includes:
      ![](https://github.com/horsewell/project4/blob/main/images/Pie%20Chart%20for%20GENDER.png)
    - Passing is the highest "Final Result", however if you combine Passing with Distinction and Withrdrawal with Failing. Then Failing is higher.
      ![](https://github.com/horsewell/project4/blob/main/images/Combined%20Bar%20Graph%20for%20FINAL%20RESULTS.png)
-   - 
+   - 0-35 is by far the most common age band
+   - ![](https://github.com/horsewell/project4/blob/main/images/Pie%20Chart%20for%20AGE.png)
      
 
 1. Are there factors that cause some students to be more prone to dropping out than others.
