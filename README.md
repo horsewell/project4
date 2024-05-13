@@ -59,15 +59,16 @@ From the models we will create an applicaiton for universitys to use to predict 
         - Multiple features impacted student success
         - Only focusing on IMD Band to predict if a student would pass or fail a course resulted in low accuracy models
         - Top three important features
-         - Number of clicks with class material
-         - Assessment scores
-         - Date of registration
-        - Most Successful Model 
+            - Number of clicks with class material
+            - Assessment scores
+            - Date of registration
+        - Most Successful Model: Random Forest
         ![Random Forest](images/random_forest_model.png)
 
 3. How does Student interaction affect the final score?
 -   Wanted to find out if the students’ interaction, not their results, would predict their final score.
--   The following columns where used:  ![Percent    Graph](images/percent_final_scores.png)       
+- ![Percent    Graph](images/percent_final_scores.png)
+-   The following columns where used:         
     - Code_module (unique 7)
     - Code_presentation (unique 4)
     - Date_submitted (all values)
@@ -78,18 +79,21 @@ From the models we will create an applicaiton for universitys to use to predict 
     - Total_clicks (binned to 6)
     - Final_result (binned to 2)
 - ![Interaction Scores](images/interaction_final_score.png) 
-- ![Model Results](images/percent_final_scores.png) 
-93%
-    - A decision tree is a non-parametric supervised learning algorithm, which is utilized for both classification and regression tasks. It has a hierarchical, tree structure, which consists of a root node, branches, internal nodes and leaf nodes.
-    - Random forest is a commonly-used machine learning algorithm. It combines the output of multiple decision trees to reach a single result. Its ease of use and flexibility have fueled its adoption, as it handles both classification and regression problems.
-87%
-    - KNN tries to predict the correct class for the test data by calculating the distance between the test data and all the training points. Then select the K number of points which is closest to the test data.
-75%
-    - Gaussian Naive Bayes assumes that each parameter (also called features or predictors) has an independent capacity of predicting the output variable.
-    - Logistic regression is a useful model to run early in the workflow.
+- ![Model Results](images/interaction_model_results.png) 
+    - 93%
+        - A decision tree is a non-parametric supervised learning algorithm, which is utilized for both classification and regression tasks. It has a hierarchical, tree structure, which consists of a root node, branches, internal nodes and leaf nodes.
+        - Random forest is a commonly-used machine learning algorithm. It combines the output of multiple decision trees to reach a single result. Its ease of use and flexibility have fueled its adoption, as it handles both classification and regression problems.
+    - 87%
+        - KNN tries to predict the correct class for the test data by calculating the distance between the test data and all the training points. Then select the K number of points which is closest to the test data.
+    - 75%
+        - Gaussian Naive Bayes assumes that each parameter (also called features or predictors) has an independent capacity of predicting the output variable.
+        - Logistic regression is a useful model to run early in the workflow.
 
 ## Instructions for Web App
-The web app has interactive tabs called Explore Data and Prediction Calculator. The first welcome page details an overview of our project and explains the models that were used to answer our questions for the dataset we analysed. The Explore Data page allows the user to query the dataset used for analysis through a chatbot. The user can ask the chatbot to plot graphs and answer basic questions questions about the university dataset. The Prediction Calculator page utilises a Random Forest model, the user can change feature inputs about a student and the model will predict whether the student will pass or fail the course.
+    - The web app has interactive tabs called Explore Data and Prediction Calculator. 
+    - The first welcome page details an overview of our project and explains the models that were used to answer our questions for the dataset we analysed.
+    - The Explore Data page allows the user to query the dataset used for analysis through a chatbot. The user can ask the chatbot to plot graphs and answer basic questions questions about the university dataset. 
+    - The Prediction Calculator page utilises a Random Forest model, the user can change feature inputs about a student and the model will predict whether the student will pass or fail the course.
 
 ## Limitations and Challenges of Dataset & Dataset & Analysis
 Data
@@ -105,9 +109,6 @@ Analysis
 
 Web Deployment
 - Pickle files of models and dataframes too large to store on github
-
-
-
 
 ## References & Datasets
 https://www.kaggle.com/datasets/mexwell/open-university-learning-analytics
