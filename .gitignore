@@ -6,7 +6,8 @@ untitled_project/
 cache/
 *.pkl
 exports/charts/
-untitled_project
+untitled_project/
+exports/charts/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
