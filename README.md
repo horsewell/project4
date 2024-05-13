@@ -10,7 +10,7 @@ Get a general understanding of the data. (Total students, gender ratio, geograph
 Then use machine learning the following questions:
 1. Are there factors that cause some students to be more prone to dropping out than others?
     - Logistic Regression
-2. Does IMBD_BAND affect the success of the student?
+2. Does IMD_BAND affect the success of the student?
      - Logistic Regression
      - Decision Tree model
      - Deep Learning Model
